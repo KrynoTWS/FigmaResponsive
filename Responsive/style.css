@@ -1,0 +1,516 @@
+@media only screen and (max-width: 768px){
+    .desktop{
+        display: none;
+    }
+}
+@media only screen and (min-width: 768px){
+    .mobile{
+        display: none;
+    }
+}
+body{
+    background-color: black;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+/*mobitel*/
+body .mobile{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    align-items: center;
+}
+.box1{
+    position: absolute;
+    width: 350px;
+    height: 750px;
+    margin: auto 10% auto 10%;
+    background-color: black;
+    border: white solid 2px;
+    border-radius: 30px;
+    overflow: hidden;
+    display: block;
+    box-sizing: border-box;
+}
+ #logo1{
+    position: relative;
+    top: 15px;
+    left: 35px;
+}
+#mobile1{
+    position: relative;
+    width: 350px;
+    height: 275px;
+    top: 25px;
+}
+ #circle1{
+    position:absolute;
+    width: 150px;
+    height: 150px;
+    top: 250px;
+    left: 105px;
+}
+.MM{
+    position: absolute;
+    width: 370px;
+    height: 80px;
+    left: 25px;
+    top: 400px;
+    font-family:'Saira Condensed',sans-serif;
+    font-style:normal;
+    font-weight: 300;
+    font-size: 26px;
+    letter-spacing: 2px;
+    color: white;
+    line-height: 0;
+    display: flex;
+    align-items: center;
+}
+body main .mobile .box1 p{
+    position: absolute;
+    width: 320px;
+    height: 280px;
+    left: 20px;
+    top: 470px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    color: white;
+    line-height: 18px;
+    display:block;
+    align-items: center;
+    
+}
+
+.box2{
+    position: absolute;
+    margin: 765px 10% auto 10%;
+    width: 350px;
+    height: 750px;
+    background-color: black;
+    border: white solid 2px;
+    border-radius: 30px;
+    overflow: hidden;
+    display: block;
+    box-sizing: border-box;
+}
+#ph3{
+    position: absolute;
+    width: 350px;
+    height: 325px;
+    left: 0;
+    top: -20px;
+}
+#bla{
+    position: absolute;
+    width: 480px;
+    height: 110px;
+    left: -85px;
+    top: 230px;
+}
+.stats{
+    position: absolute;
+    display: block;
+    align-content: space-between;
+    text-align: center;
+    color: white;
+    top: 370px;
+    left: 120px;
+}
+.ImTi{
+    position: relative;
+    align-content: space-between;
+    align-items: center;
+    top: 375px;
+    left: 80px;
+}
+.smol{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    display: flex;
+    position: relative;
+}
+body main .mobile .box2 .scrollbar .stats div .big{
+    font-family: 'Saira Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    display: flex;
+    position: relative;
+}
+.cmp{
+    position: absolute;
+    top: 480px;
+    left: 10px;
+    align-items: center;
+    display: flex;
+}
+.less{
+    position: absolute;
+    width: 72px;
+    height: 30px;
+    left: 25px;
+    top: -3px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+.more{
+    position: absolute;
+    width: 72px;
+    height: 30px;
+    left: 270px;
+    top: -5px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+.crta1{
+    position: absolute;
+    width: 130px;
+    height: 3px;
+    left: 60px;
+    top: 35px;
+    background: #A75B12;
+}
+.crta2{
+    position: absolute;
+    width: 70px;
+    height: 3px;
+    left: 190px;
+    top: 35px;
+    background: #FFFFFF;
+}
+.info1{
+    position:absolute;
+    width: 300px;
+    height: 100px;
+    left: 30px;
+    top: 540px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+}
+#BuyIt{
+    position: absolute;
+    width: 180px;
+    height: 56px;
+    left: 140px;
+    top: 670px;
+}
+ #heart{
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 50px;
+    top: 670px;
+}
+
+.box3{
+    position: absolute;
+    margin: 1530px 10% 10% 10%;
+    width: 350px;
+    height: 750px;
+    background-color: black;
+    border: white solid 2px;
+    border-radius: 30px;
+    overflow: hidden;
+    display: block;
+    box-sizing: border-box;
+}
+.mb2{
+    position: absolute;
+    top:60px;
+    left: 0;
+    left: 0;
+    width: 350px;
+    height: 210px;
+}
+.logo2{
+    position: absolute;
+    top: 10px;
+    left: 35px;
+    width: auto;
+    height: auto;
+}
+
+/*desktop*/
+body main .desktop{
+    width: 100%;
+    height: 100%;
+}
+body main .desktop .stroke{
+    border: white solid 2px;
+    border-radius: 32px;
+    top: 50px;
+    left: 100px;
+    position: absolute;
+    z-index: -1;
+    width: 1470px;
+    height: 850px;
+    background-color: black;
+    overflow: hidden;
+}
+body main .desktop .stroke #bike{
+    margin-top: 90px;
+    left: 0;
+    position: absolute;
+    height: 550px;
+    width: 860px;
+    z-index: -1;
+}
+body main .desktop .stroke #circle{
+    top: 90px;
+    left: 710px;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    z-index: 4;
+    background-color: black;
+}.stroke #gold{
+    position: absolute;
+    width: 475px;
+    height: 560px;
+    left: 1100px;
+    top: -200px;
+    z-index: 1;
+    transform: matrix(0, 1, 1, 0, 0, 0);
+}
+body main .desktop .stroke .logo{
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    top: 20px;
+    bottom: 80.35%;
+    background-color: none;
+    width: 280px;
+}
+.bikes{
+    position: absolute;
+    width: 61px;
+    height: 20px;
+    left: 430px;
+    top: 45px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.accessories{
+    position: absolute;
+    width: 61px;
+    height: 20px;
+    left: 570px;
+    top: 45px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    text-align: center;
+    color: #FFFFFF;
+}
+.newtech{
+    position: absolute;
+    width: 146px;
+    height: 20px;
+    left: 770px;
+    top: 45px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    text-align: center;
+    color: #FFFFFF;
+}
+.explore{
+    position: absolute;
+    width: 96px;
+    height: 20px;
+    left: 930px;
+    top: 45px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    text-align: center;
+    color: #FFFFFF;
+}
+.sidelow{
+    position: absolute;
+    width: 353px;
+    height: 752px;
+    left: 1170px;
+    top: 240px;
+    padding: 5px 0 0 30px;
+    background-color: #060507;
+    z-index: 5;
+    background: linear-gradient(90deg, #060507 0%, #060507 100%);
+}
+.stat{
+    position: relative;
+    width: 305px;
+    height: 140px;
+    padding: 0 5px 5px 0;
+    display: flex;
+    align-items: center;
+}
+.title{
+    position: relative;
+    padding-right:45px;
+    padding-left: 15px;
+    width: 15px;
+    height: auto;
+}
+.small{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+.big{
+    margin: 10px 0;
+    font-family: 'Saira Condensed', sans-serif;
+    font-style:italic;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 42px;
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.info{
+    position: absolute;
+    width: 380px;
+    height: 92px;
+    left: 440px;
+    top: 710px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.comparison{
+    position: absolute;
+    top: 730px;
+    left: 20px;
+    right: 930px;
+}
+.manje{
+    position: absolute;
+    width: 72px;
+    height: 30px;
+    left: 15px;
+    top: 0;
+    font-family: 'Saira Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.veće{
+    position: absolute;
+    width: 72px;
+    height: 30px;
+    left: 330px;
+    top: 0;
+    font-family: 'Saira Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+}
+.line .line1{
+    position: absolute;
+    width: 180px;
+    height: 2px;
+    left: 50px;
+    top: 15px;
+    background: #A75B12;
+    z-index: 2;
+}
+.line .line2{
+    position: absolute;
+    width: 155px;
+    height: 2px;
+    left: 170px;
+    top: 15px;
+    background: #FFFFFF;
+    z-index: 1;
+}
+#bla1{
+    position: absolute;
+    width: 700px;
+    height: 140px;
+    left: -15px;
+    top: 530px;
+    z-index: 4;
+    background: none;
+}
+#bla2{
+    height: 140px;
+    width: 700px;
+    left: 745px;
+    top: 530px;
+    z-index: 4;
+    background:none;
+    position: absolute;
+}
+.stroke #wheel{
+    position: absolute;
+    width: 250px;
+    height: 500px;
+    left: 920px;
+    top: 140px;
+    z-index: 2;
+}
+.stroke #back{
+    position: absolute;
+    width: 316px;
+    height: 256px;
+    left: 860px;
+    top: 560px;
+    z-index: 2;
+}
